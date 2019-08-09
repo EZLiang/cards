@@ -20,8 +20,8 @@ class Hand:
         else:
             raise Hand.HandError(f"{card} not in hand")
 
-    def draw(self, d: deck.Deck):
-        self.pick_up(d.draw())
+    def draw(self, d: deck.Deck, n=1):
+        self.pick_up(d.draw(n))
 
     def ret(self, d: deck.Deck, card):
         self.put_down(card)
