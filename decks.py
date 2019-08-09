@@ -18,9 +18,16 @@ class DeckSample:
         "AH", "2H", "3H", "4H", "5H", "6H", "7H", "8H", "9H", "10H",
         "AS", "2S", "3S", "4S", "5S", "6S", "7S", "8S", "9S", "10S"
     ]
+    pure_number = [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+    ]
 
 decks = {
     "normal": DeckSample.normal,
     "poker": DeckSample.poker,
-    "number": DeckSample.number
+    "number": DeckSample.number,
+    "purenumber": DeckSample.pure_number
 }
