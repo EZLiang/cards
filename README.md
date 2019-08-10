@@ -5,7 +5,10 @@
 
 To use:
  * Download and unzip.
- * Use sys.path
+ * 
+ ```py
+ sys.path.append("[enclosing folder]")
+ ```
  * 
  ```py
  import cards
