@@ -5,17 +5,12 @@
 
 To use:
  * Download and unzip.
- * Create and open cardsim.py where you want to use cards.
- * Write <br />
+ * In your file write: <br />
  ```py
  import sys
- if "[download location]" not in sys.path:
-     sys.path.append("[download location]/lib")
- import deck
- import hand
+ if "[enclosing folder of cards]/cards/script" not in sys.path:
+     sys.path.append("[enclosing folder of cards]/cards/script")
+ 
+ from imp import Deck, Hand
  ```
- * Now if you want to use, just type
- ```py
- from cardsim import deck, hand
- rest of code here
- ```
+ * **Use!**
