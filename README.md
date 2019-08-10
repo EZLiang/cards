@@ -5,12 +5,9 @@
 
 To use:
  * Download and unzip.
- * In your file write: <br />
+ * Use sys.path
+ * 
  ```py
- import sys
- if "[enclosing folder of cards]/cards/script" not in sys.path:
-     sys.path.append("[enclosing folder of cards]/cards/script")
- 
- from imp import Deck, Hand
+ import cards
  ```
  * **Use!**
