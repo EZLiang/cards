@@ -4,6 +4,7 @@
 [See directory](docs/dir.md)
 
 To use:
+----
 Download and unzip.
 ```py
 import sys
