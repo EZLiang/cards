@@ -5,7 +5,7 @@
 
 To use:
  * Download and unzip.
- * Create and open cards-import.py where you want to use cards.
+ * Create and open cards-im.py where you want to use cards.
  * Write <br />
  ```py
  import sys
@@ -16,6 +16,6 @@ To use:
  ```
  * Now if you want to use, just type
  ```py
- from cards-import import deck, hand
+ from cards-im import deck, hand
  rest of code here
  ```
